@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+# Keep Unity YAML files mergeable and use Unity's Smart Merge driver.
+*.unity merge=unityyamlmerge whitespace=-blank-at-eol
+*.meta merge=unityyamlmerge whitespace=-blank-at-eol
+*.prefab merge=unityyamlmerge whitespace=-blank-at-eol
+*.asset merge=unityyamlmerge whitespace=-blank-at-eol
+*.mat merge=unityyamlmerge whitespace=-blank-at-eol
+*.controller merge=unityyamlmerge whitespace=-blank-at-eol
+*.anim merge=unityyamlmerge whitespace=-blank-at-eol
+*.overrideController merge=unityyamlmerge whitespace=-blank-at-eol
+*.spriteatlas merge=unityyamlmerge whitespace=-blank-at-eol
