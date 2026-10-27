@@ -2431,7 +2431,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ff370a432fe94081ba32af146621c12, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.AreaAguaAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.AreaAgua
   velocidadeAgua: 2
   campoVisaoAgua: 50
 --- !u!54 &202722857
@@ -2834,7 +2834,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3416867b0d35426592e073bd51812e7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.FluxoPartidaAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.FluxoPartida
   painelFluxo: {fileID: 1889734906}
   textoTitulo: {fileID: 812578898}
   textoDica: {fileID: 1540544474}
@@ -3254,7 +3254,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ff370a432fe94081ba32af146621c12, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.AreaAguaAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.AreaAgua
   velocidadeAgua: 2
   campoVisaoAgua: 50
 --- !u!54 &299843910
@@ -4068,7 +4068,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c43d3c2d3ea84aa2974cf8c556becc2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.AudioJogoAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.AudioJogo
   musicaInicial: {fileID: 367173083}
   musicaFrenetica: {fileID: 367173082}
 --- !u!4 &367173085
@@ -4566,7 +4566,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ff370a432fe94081ba32af146621c12, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.AreaAguaAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.AreaAgua
   velocidadeAgua: 2
   campoVisaoAgua: 50
 --- !u!54 &433836196
@@ -5265,7 +5265,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ff370a432fe94081ba32af146621c12, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.AreaAguaAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.AreaAgua
   velocidadeAgua: 2
   campoVisaoAgua: 50
 --- !u!54 &549357762
@@ -5712,7 +5712,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ff370a432fe94081ba32af146621c12, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.AreaAguaAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.AreaAgua
   velocidadeAgua: 2
   campoVisaoAgua: 50
 --- !u!54 &559573573
@@ -7146,7 +7146,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ff370a432fe94081ba32af146621c12, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.AreaAguaAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.AreaAgua
   velocidadeAgua: 2
   campoVisaoAgua: 50
 --- !u!54 &710641758
@@ -7332,7 +7332,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 722ea2d70a07b4e0092b4107255ef595, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.SpawnerAranhaAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.SpawnerAranha
   prefabAranha: {fileID: 7525638360100220545, guid: f97d1a85b2ce94c65935b8fcee789dd5, type: 3}
   jogador: {fileID: 812375767}
   raioMinimo: 15
@@ -7755,7 +7755,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a7954a912759c454c9ebde1595031cf9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.VisualCartaAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.VisualCarta
   imagemCarta: {fileID: 615575398}
   textoTitulo: {fileID: 1902586485}
   textoDescricao: {fileID: 1281700747}
@@ -8270,7 +8270,7 @@ GameObject:
   - component: {fileID: 812375771}
   - component: {fileID: 812375772}
   m_Layer: 8
-  m_Name: JogadorAvalonia
+  m_Name: Jogador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8303,7 +8303,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81b66d3c5632f47a393a4aa35f173c32, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.JogadorAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.Jogador
   velocidadeAndar: 5
   aceleracao: 28
   atritoChao: 22
@@ -8353,7 +8353,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bce2aaf8e8f8d4de8918ab375fe71c41, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.VidaJogadorAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.VidaJogador
   jogador: {fileID: 812375768}
   vidaMaxima: 12
 --- !u!114 &812375771
@@ -8367,7 +8367,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66786dddab8814143922cf436ff09532, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.AtaqueBasicoAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.AtaqueBasico
   dano: 2
   alcance: 7
   aberturaGraus: 45
@@ -8391,7 +8391,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b4dc3f18a0ca34f61ac58f8facd324c9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.MachadoAutomaticoAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.MachadoAutomatico
   quadrosMachado:
   - {fileID: 21300000, guid: f26bdba0973c040c0be778c2bfb40ba7, type: 3}
   - {fileID: 21300000, guid: 2db77a41b2ecd4f1da828d1463d92812, type: 3}
@@ -8679,7 +8679,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a7954a912759c454c9ebde1595031cf9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.VisualCartaAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.VisualCarta
   imagemCarta: {fileID: 1947768435}
   textoTitulo: {fileID: 856559575}
   textoDescricao: {fileID: 1183410436}
@@ -9176,7 +9176,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38379fc075d2546648058c828042210f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.CameraFollowAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.CameraFollow
   jogador: {fileID: 812375768}
   frequenciaAcompanhamento: 5
   frequenciaVertical: 8
@@ -10582,7 +10582,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ff370a432fe94081ba32af146621c12, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.AreaAguaAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.AreaAgua
   velocidadeAgua: 2
   campoVisaoAgua: 50
 --- !u!54 &1046105200
@@ -10947,7 +10947,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a7954a912759c454c9ebde1595031cf9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.VisualCartaAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.VisualCarta
   imagemCarta: {fileID: 597930793}
   textoTitulo: {fileID: 1656142604}
   textoDescricao: {fileID: 570786783}
@@ -11257,7 +11257,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ff370a432fe94081ba32af146621c12, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.AreaAguaAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.AreaAgua
   velocidadeAgua: 2
   campoVisaoAgua: 50
 --- !u!54 &1097141360
@@ -12071,7 +12071,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ff370a432fe94081ba32af146621c12, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.AreaAguaAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.AreaAgua
   velocidadeAgua: 2
   campoVisaoAgua: 50
 --- !u!54 &1175387103
@@ -12755,7 +12755,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ff370a432fe94081ba32af146621c12, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.AreaAguaAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.AreaAgua
   velocidadeAgua: 2
   campoVisaoAgua: 50
 --- !u!54 &1211440227
@@ -13346,7 +13346,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1285175727}
   m_Layer: 0
-  m_Name: VolumesAguaAvalonia
+  m_Name: VolumesAgua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14913,7 +14913,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 88d76d228c721467b8136fb3230176fe, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.SpawnerSlimeAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.SpawnerSlime
   prefabSlime: {fileID: 1060608952806573262, guid: 985fc262ed266445ca2164f21a5f20df, type: 3}
   jogador: {fileID: 812375767}
   raioMinimo: 15
@@ -15089,7 +15089,7 @@ GameObject:
   - component: {fileID: 1514644345}
   - component: {fileID: 1514644344}
   m_Layer: 0
-  m_Name: EstadoJogoAvalonia
+  m_Name: EstadoJogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15106,7 +15106,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 92c0923106f6240f19a3384a3ac68ff4, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.EstadoJogoAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.EstadoJogo
   prefabJoiaXp: {fileID: 964184896525250601, guid: ce57a61ffa80d4db59967c5d0359f002, type: 3}
   xpBase: 10
   xpPorNivel: 10
@@ -15217,7 +15217,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89470db3173a34400a76d2a1e5981afb, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.SpawnerEnxameAranhasAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.SpawnerEnxameAranhas
   jogador: {fileID: 812375767}
   prefabAranhaPequena: {fileID: 3381504925586550625, guid: 0fa2c998af58c42b982331202ad862b5, type: 3}
   atrasoInicial: 30
@@ -16604,7 +16604,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 52ed4c662bd8f46b18d239e87912cddd, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.InterfaceCartasAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.InterfaceCartas
   painelCartas: {fileID: 389370696}
   tituloPainel: {fileID: 32343885}
   instrucaoPainel: {fileID: 1234241724}
@@ -16818,7 +16818,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ff370a432fe94081ba32af146621c12, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.AreaAguaAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.AreaAgua
   velocidadeAgua: 2
   campoVisaoAgua: 50
 --- !u!54 &1730616020
@@ -19199,7 +19199,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95262b172c4d54c1193cbbbedd6115fb, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.HudAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.Hud
   preenchimentoVida: {fileID: 557148864}
   preenchimentoXp: {fileID: 1234348184}
   textoVida: {fileID: 2109711266}
@@ -19338,7 +19338,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48de25d483fee4eaab973dcf586965da, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.AnimacaoJogadorAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.AnimacaoJogador
   spriteFrente: {fileID: 2800000, guid: fced451f354e345ad8922d65ef13aae5, type: 3}
   spriteCostas: {fileID: 2800000, guid: 8f82a462b06954596998f9e4364e59da, type: 3}
   spriteLadoEsquerdo: {fileID: 2800000, guid: e54d4ed0a19174b2bb2f7dd8e6753176, type: 3}
@@ -19927,7 +19927,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ff370a432fe94081ba32af146621c12, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.AreaAguaAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.AreaAgua
   velocidadeAgua: 2
   campoVisaoAgua: 50
 --- !u!54 &2129925858

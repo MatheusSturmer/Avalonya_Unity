@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 
-namespace Avalonia.Editor
+namespace Avalonya.Editor
 {
     public static class GeradorCenarioInicial
     {
@@ -16,7 +16,7 @@ namespace Avalonia.Editor
         private const string CaminhoPastaMateriais = "Assets/Art/Materials";
         private const string CaminhoMaterialMapa = "Assets/Art/Materials/MapaAvalonya.mat";
 
-        [MenuItem("Avalonia/Migracao/Gerar cenario base")]
+        [MenuItem("Avalonya/Migracao/Gerar cenario base")]
         public static void GerarCenarioBase()
         {
             if (File.Exists(CaminhoCena))
@@ -51,7 +51,7 @@ namespace Avalonia.Editor
             CriarPontoDoJogador(pontos.transform);
             CriarPontosDeSurgimento(pontos.transform);
 
-            PlayerSettings.productName = "Avalonia";
+            PlayerSettings.productName = "";
             PlayerSettings.defaultScreenWidth = 1920;
             PlayerSettings.defaultScreenHeight = 1080;
 
@@ -66,7 +66,7 @@ namespace Avalonia.Editor
             Debug.Log("Etapa 1 pronta: mapa, iluminacao, colisao do chao, camera e pontos de entrada.");
         }
 
-        [MenuItem("Avalonia/Migracao/Ajustar cenario existente")]
+        [MenuItem("Avalonya/Migracao/Ajustar cenario existente")]
         public static void AjustarCenarioExistente()
         {
             ConfigurarImportacaoMapa();
@@ -96,7 +96,7 @@ namespace Avalonia.Editor
             );
         }
 
-        [MenuItem("Avalonia/Migracao/Importar objetos do Godot")]
+        [MenuItem("Avalonya/Migracao/Importar objetos do Godot")]
         public static void ImportarObjetosGodot()
         {
             string caminhoJson = Path.Combine(Application.dataPath, "Editor/Data/cenario-godot.json");

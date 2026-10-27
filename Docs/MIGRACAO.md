@@ -50,7 +50,7 @@ Em cada etapa, registrar separadamente importação, compilação, execução e 
 
 ### Checkpoint 3D — Aranha comum e surgimento por ritmo
 
-- **Importação/configuração:** o prefab `AranhaAvalonia` usa os cinco quadros de caminhada, os dois de ataque e o sprite de recuo. Os quadros foram recortados dos atlases preservando as margens transparentes usadas pelo Godot. A cena configura o spawner com raio de 15–30 m, atraso de 3 s, limites de 5/10/15/20/30 e intervalos de 3/2/1,5/1/0,75 s.
+- **Importação/configuração:** o prefab `Aranha.prefab` usa os cinco quadros de caminhada, os dois de ataque e o sprite de recuo. Os quadros foram recortados dos atlases preservando as margens transparentes usadas pelo Godot. A cena configura o spawner com raio de 15–30 m, atraso de 3 s, limites de 5/10/15/20/30 e intervalos de 3/2/1,5/1/0,75 s.
 - **Compilação:** recompilação concluída no Unity 6000.6.4f1, sem falhas. Depois do teste, o Console foi limpo e terminou com 0 erros e 0 avisos.
 - **Execução:** um ataque simulado acertou uma aranha, reduziu a vida de 1 para 0 e exibiu o sprite de recuo; o jogador permaneceu com 12/12. Uma chamada controlada ao spawner produziu uma aranha viva de cinco vagas, a 24,42 m do jogador, com alvo configurado. O Play Mode foi encerrado e a cena salva foi reaberta; jogador e spawner estavam ativos e não restaram clones de teste.
 - **Revisão visual:** captura do Play Mode inspecionada; cenário 2.5D, personagem e aranhas estavam visíveis. A captura foi diagnóstica e não é imagem de apresentação.

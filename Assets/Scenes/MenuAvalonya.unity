@@ -614,7 +614,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: deb9d561492604c1f97be9843938af17, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Avalonia.MenuPrincipalAvalonia
+  m_EditorClassIdentifier: Assembly-CSharp::Avalonya.MenuPrincipal
   painelPrincipal: {fileID: 1446696324}
   painelOpcoes: {fileID: 1150082757}
   painelCreditos: {fileID: 1679487075}
